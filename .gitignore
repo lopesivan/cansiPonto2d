@@ -201,4 +201,6 @@ build
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+*.c.orig
+*.h.orig
 # End of https://www.gitignore.io/api/c,c++,linux,cmake,clion,autotools
