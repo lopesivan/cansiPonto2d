@@ -22,4 +22,6 @@ void    ponto_set     (Ponto2d ponto, float x, float y);
 float   ponto_get_x   (Ponto2d ponto);
 float   ponto_get_y   (Ponto2d ponto);
 
+void ponto_imprime (Ponto2d ponto);
+
 #endif //CANSIPONTO2D_PONTO2D_H
