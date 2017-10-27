@@ -53,3 +53,13 @@ Ponto2d ponto_soma (Ponto2d ponto1, Ponto2d ponto2)
 
     return ponto_novo (x, y);
 }
+
+void ponto_imprime(Ponto2d ponto) {
+
+    /* apenas como exemplo:
+     * printf("(X,Y) = (%05.2f, %05.2f)\n", ponto->x, ponto->y);
+     */
+    printf("(X,Y) = (%-6.3f, %6.3f)\n", ponto->x, ponto->y);
+
+    return;
+}

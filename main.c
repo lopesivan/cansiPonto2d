@@ -11,6 +11,10 @@ int main()
 
     Ponto2d C = ponto_soma (A, B);
 
+    ponto_imprime(A);
+    ponto_imprime(B);
+    ponto_imprime(C);
+
     ponto_remove (A);
     ponto_remove (B);
     ponto_remove (C);
