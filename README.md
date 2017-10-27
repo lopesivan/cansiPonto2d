@@ -9,8 +9,7 @@ Esse programa cria um tipo chamado **Ponto2d**,   e no caso é um ponteiro para 
 
 ## Clion
 
-Eu uso a IDE CLlion,  que tem me atendido muito bem,  apesar de  eu nunca abandonar o meu editor preferido , o VIM e no caso sua variante NVIM.
-
+Eu uso a IDE CLlion, que tem me atendido muito bem, apesar de nunca abandonar o meu editor preferido , o [VIM](http://www.vim.org) e no caso sua variante [NEOVIM](https://github.com/neovim/neovim).
 
 ## Sobre mim
 
