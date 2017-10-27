@@ -59,7 +59,7 @@ void ponto_imprime (Ponto2d ponto)
      * printf("(X,Y) = (%05.2f, %05.2f)\n", ponto->x, ponto->y);
      */
     printf ("(X,Y) = (%-6.3f, %6.3f)\n", ponto_get_x (ponto),
-                                         ponto_get_y (ponto));
+            ponto_get_y (ponto));
 }
 
 void ponto_set (Ponto2d ponto, float x, float y)
