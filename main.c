@@ -11,9 +11,14 @@ int main()
 
     Ponto2d C = ponto_soma (A, B);
 
-    ponto_imprime(A);
-    ponto_imprime(B);
-    ponto_imprime(C);
+    ponto_imprime (A);
+    ponto_imprime (B);
+    ponto_imprime (C);
+
+    printf("%s\n","Mudando o ponto A:");
+    ponto_set(A, 12, 5.8);
+    ponto_imprime (A);
+
 
     ponto_remove (A);
     ponto_remove (B);

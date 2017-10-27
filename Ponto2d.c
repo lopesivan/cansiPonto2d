@@ -40,8 +40,6 @@ Ponto2d ponto_novo (float x, float y)
 void ponto_remove (Ponto2d ponto)
 {
     free (ponto);
-
-    return;
 }
 
 Ponto2d ponto_soma (Ponto2d ponto1, Ponto2d ponto2)
@@ -54,12 +52,29 @@ Ponto2d ponto_soma (Ponto2d ponto1, Ponto2d ponto2)
     return ponto_novo (x, y);
 }
 
-void ponto_imprime(Ponto2d ponto) {
+void ponto_imprime (Ponto2d ponto)
+{
 
     /* apenas como exemplo:
      * printf("(X,Y) = (%05.2f, %05.2f)\n", ponto->x, ponto->y);
      */
-    printf("(X,Y) = (%-6.3f, %6.3f)\n", ponto->x, ponto->y);
+    printf ("(X,Y) = (%-6.3f, %6.3f)\n", ponto_get_x (ponto),
+                                         ponto_get_y (ponto));
+}
 
-    return;
+void ponto_set (Ponto2d ponto, float x, float y)
+{
+
+    ponto->x = x;
+    ponto->y = y;
+}
+
+float ponto_get_x (Ponto2d ponto)
+{
+    return ponto->x;
+}
+
+float ponto_get_y (Ponto2d ponto)
+{
+    return ponto->y;
 }
