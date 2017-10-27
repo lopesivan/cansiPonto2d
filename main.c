@@ -7,10 +7,13 @@ int main()
     printf ("%s\n", "início ===================");
 
     Ponto2d A = ponto_novo (2, 5);
-    Ponto2d B = ponto_novo (1, 2.6);
+    Ponto2d B = ponto_novo (1, 8);
+
+    Ponto2d C = ponto_soma (A, B);
 
     ponto_remove (A);
     ponto_remove (B);
+    ponto_remove (C);
 
     printf ("%s\n", "Fim    ===================");
 

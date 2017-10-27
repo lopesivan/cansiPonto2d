@@ -43,3 +43,13 @@ void ponto_remove (Ponto2d ponto)
 
     return;
 }
+
+Ponto2d ponto_soma (Ponto2d ponto1, Ponto2d ponto2)
+{
+
+    float x = ponto1->x + ponto2->x;
+    float y = ponto1->y + ponto2->y;
+
+
+    return ponto_novo (x, y);
+}
