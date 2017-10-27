@@ -14,18 +14,19 @@ struct Ponto2d_t
 
 };
 
-Ponto2d ponto_novo(float x, float y) {
+Ponto2d ponto_novo (float x, float y)
+{
 
-    Ponto2d ponto = malloc(sizeof *ponto);
+    Ponto2d ponto = malloc (sizeof *ponto);
 
     if (ponto == NULL)
     {
-        printf("%s:In function `%s':\n" "%s:%d: %s\n", \
-           __FILE__, __FUNCTION__, __FILE__, __LINE__, \
-           "could not allocate the Array pointer"
-        );
+        printf ("%s:In function `%s':\n" "%s:%d: %s\n", \
+                __FILE__, __FUNCTION__, __FILE__, __LINE__, \
+                "could not allocate the Array pointer"
+               );
 
-        exit(EXIT_FAILURE);
+        exit (EXIT_FAILURE);
     }
 
     ponto->x = x;
@@ -36,9 +37,9 @@ Ponto2d ponto_novo(float x, float y) {
 }
 
 
-void ponto_remove(Ponto2d ponto)
+void ponto_remove (Ponto2d ponto)
 {
-    free(ponto);
+    free (ponto);
 
     return;
 }
