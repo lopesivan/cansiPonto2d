@@ -203,4 +203,7 @@ build
 
 *.c.orig
 *.h.orig
+tags
+.ccls-cache
+
 # End of https://www.gitignore.io/api/c,c++,linux,cmake,clion,autotools
