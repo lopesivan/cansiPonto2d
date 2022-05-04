@@ -1,5 +1,6 @@
 {
   "./.projections.json": { "type": "dit" },
+  "./.yabs": { "type": "build" },
 
   "README.md": {
     "type": "doc"
