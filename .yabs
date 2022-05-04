@@ -3,7 +3,7 @@ return {
 	tasks = {
 
 		run = {
-			command = "./cansiPonto2d",
+			command = "./main",
 			condition = require("yabs.conditions").file_exists("CMakeLists.txt"),
 			output = "quickfix",
 		},
@@ -27,7 +27,7 @@ return {
 		},
 
 		valgrind = {
-			command = "valgrind ./cansiPonto2d",
+			command = "valgrind ./main",
 			condition = require("yabs.conditions").file_exists("CMakeLists.txt"),
 			output = "quickfix",
 		},
