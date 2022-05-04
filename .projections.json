@@ -19,8 +19,9 @@
 
   "*.c": {
     "type": "s",
+    "run": "!./{}",
     "make": "make %<",
-    "dispatch": "./%<",
+    "dispatch": "make clean",
     "alternate": "inc/{}.h"
   },
 
